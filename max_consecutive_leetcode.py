@@ -1,12 +1,8 @@
 #kadane algorithm
 
 #finding max consecutive numbers
-
-from ast import List
-
-
 class Solution:
-    def findMaxConsecutiveOnes(self, nums: "List[int]") -> int:
+    def findMaxConsecutiveOnes(self, nums: "list[int]") -> int:
 
         loc_max = glo_max = 0
         for i in range(len(nums)):
