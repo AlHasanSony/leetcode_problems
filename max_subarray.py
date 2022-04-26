@@ -1,3 +1,4 @@
+#problem link https://leetcode.com/problems/maximum-subarray/
 class Solution:
     def maxSubArray(self, nums: list[int]) -> int:
         maxSub = nums[0]
@@ -9,3 +10,4 @@ class Solution:
             curSum += n
             maxSub = max (maxSub, curSum)
         return maxSub
+    
