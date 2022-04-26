@@ -1,6 +1,7 @@
 #kadane algorithm
-
+#problem link - https://leetcode.com/problems/max-consecutive-ones/
 #finding max consecutive numbers
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: "list[int]") -> int:
 
