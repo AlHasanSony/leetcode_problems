@@ -1,5 +1,8 @@
 #problem link: https://leetcode.com/problems/search-insert-position/
 
+# time complexity O(log(n))
+#binary search
+
 
 class Solution:
     def searchInsert(self, nums: list[int], target: int) -> int:
