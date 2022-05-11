@@ -1,4 +1,6 @@
-#find the max sum from the given sub array 
+#problem: find the max sum from the given sub array 
+# but it can't remove the repeated numbers from the array.
+
 
 array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7, -10, 10] #input array
 subArray = [] #sub array is defined
