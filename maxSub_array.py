@@ -2,10 +2,10 @@
 
 array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7] #input array
 subArray = [] #sub array is defined
-numSubArray = int(input('Enter N: ')) #number of items from the array to be used in the sub array
+elementsSubArray = int(input('Enter N: ')) #number of items from the array to be used in the sub array
 sumSubArray = 0 #sum of the sub array
 
-for x in range(0, numSubArray): #loop to get the items from the array
+for x in range(0, elementsSubArray): #loop to get the items from the array
     largeNum = 0 #largest number in the sub array
     for y in range(len(array)): #loop to get the largest number in the sub array
         if array[y] > largeNum: #if the number is larger than the largest number in the sub array
