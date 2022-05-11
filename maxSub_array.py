@@ -1,19 +1,21 @@
-array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7]
-subArray = []
-numSubArray = int(input('Enter N: '))
-sumSubArray = 0
+#find the max sum from the given sub array 
 
-for x in range(0, numSubArray):
-    largeNum = 0
-    for y in range(len(array)):
-        if array[y] > largeNum:
-            largeNum = array[y]
-    array.remove(largeNum)
-    subArray.append(largeNum)
+array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7] #input array
+subArray = [] #sub array is defined
+numSubArray = int(input('Enter N: ')) #number of items from the array to be used in the sub array
+sumSubArray = 0 #sum of the sub array
 
-print(subArray)
+for x in range(0, numSubArray): #loop to get the items from the array
+    largeNum = 0 #largest number in the sub array
+    for y in range(len(array)): #loop to get the largest number in the sub array
+        if array[y] > largeNum: #if the number is larger than the largest number in the sub array
+            largeNum = array[y] #set the largest number in the sub array to the number
+    array.remove(largeNum) #remove the largest number from the array
+    subArray.append(largeNum) #add the largest number to the sub array
 
-for i in range(0, len(subArray)):    
-   sumSubArray = sumSubArray + subArray[i];    
+print(subArray) #print the sub array
+
+for i in range(0, len(subArray)): #loop to get the sum of the sub array  
+   sumSubArray = sumSubArray + subArray[i]; #sum of the sub array  
      
-print("Sum of all the elements of an array: " + str(sumSubArray));
+print("Sum of all the elements of an array: " + str(sumSubArray)); #print the sum of the sub array
