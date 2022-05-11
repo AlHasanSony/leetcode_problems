@@ -1,6 +1,6 @@
 #find the max sum from the given sub array 
 
-array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7] #input array
+array = [-5, 2, 3, 4, 5, 4, 7, 8, 9, 10, 7, -7, -10, 10] #input array
 subArray = [] #sub array is defined
 elementsSubArray = int(input('Enter N: ')) #number of items from the array to be used in the sub array
 sumSubArray = 0 #sum of the sub array
