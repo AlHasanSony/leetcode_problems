@@ -13,3 +13,5 @@ array.pop(array.index(max1)) # remove largest
 max2 = max(array) # second largest
 print(max1 + max2) # sum
 
+
+#output: 16
