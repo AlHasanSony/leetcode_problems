@@ -1,3 +1,7 @@
+#problem: find the maximum value of a subarray from a given array
+
+
+
 l = [1,2,3,4,3,2,1,4,8,10,2,-4]
 
 ma = 0
