@@ -28,9 +28,7 @@ class Solution:
 #             elif numbers[i] + numbers[j] > target:
 #                 j -= 1
 #             else:
-#                 return [i + 1, j + 1]
-            
-        
+#                 return [i + 1, j + 1]   
 #         return []
 
 
