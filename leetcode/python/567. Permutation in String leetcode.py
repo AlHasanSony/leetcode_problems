@@ -1,5 +1,5 @@
 #problem: https://leetcode.com/problems/permutation-in-string/
-#sliding windows
+
 
 class Solution:
     def checkInclusion(self, s1: str, s2: str):
