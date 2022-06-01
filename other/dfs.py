@@ -2,22 +2,22 @@
 
 
 #Using a python dictionary to act as an adjacency list
-graph = {
-    '5': ['3', '7'],
-    '3': ['2','4'],
-    '7': ['8'],
-    '2': [],
-    '4': ['8'],
-    '8': []    
+graph = { #dictionary
+    '5': ['3', '7'], #key: 5, value: [3, 7]
+    '3': ['2','4'], #key: 3, value: [2, 4]
+    '7': ['8'],  #key: 7, value: [8]
+    '2': [],   #key: 2, value: []
+    '4': ['8'], #key: 4, value: [8]
+    '8': []   #key: 8, value: []
 }
 visited = set();
 
 def dfs(visited, graph, node): #function for dfs
     if node not in visited:
-        print(node)
-        visited.add(node)
-        for neighbor in graph[node]:
-            dfs(visited, graph, neighbor)
+        print(node) #print the node
+        visited.add(node) #add node to visited
+        for neighbor in graph[node]: #for each neighbor
+            dfs(visited, graph, neighbor) #recursive call
             
 print("Following is the Depth-First Search")
 dfs(visited, graph, '5')
