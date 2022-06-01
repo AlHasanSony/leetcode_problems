@@ -10,7 +10,7 @@ graph = { #dictionary
     '4': ['8'], #key: 4, value: [8]
     '8': []   #key: 8, value: []
 }
-visited = set();
+visited = set(); # visited stores the nodes that have been visited and set() is a python set      which is used for storing unique values
 
 def dfs(visited, graph, node): #function for dfs
     if node not in visited:
