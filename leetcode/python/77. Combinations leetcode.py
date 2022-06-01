@@ -18,7 +18,7 @@ class Solution(object):
     def _subset(self, n):
         if not n:
             return
-        for r in self.res[:]:
+        for r in self.res[:]: 
             if len(r) < self.k:
                 t = r[:]
                 t.append(n)
