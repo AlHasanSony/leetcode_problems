@@ -3,10 +3,7 @@
 
 class Solution:
     def threeSum(self, nums:list[int]) -> list[list[int]]:
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
+
         if not len(nums):
             return None
         ret = set()
