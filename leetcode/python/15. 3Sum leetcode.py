@@ -19,7 +19,7 @@ class Solution:
                     j += 1 #increment j
                 elif cur > 0: #if current sum is greater than 0
                     k -= 1   #decrement k
-                else:  #if current sum is 0
+                else:  #else
                     res.append([nums[i], nums[j], nums[k]]) #append the result
                     while j + 1 < k and nums[j] == nums[j + 1]: #if j is same as j + 1, then increment j
                         j += 1 #increment j
