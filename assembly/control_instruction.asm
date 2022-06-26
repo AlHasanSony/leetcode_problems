@@ -1,8 +1,6 @@
 ;experiment:
 ;program of control instruction in assembly language
 
-
-
 DTSEG SEGMENT
     DATA DB 25H, 12H, 15H, 10H, 11H
     DTSEG ENDS ; Data segment ends
