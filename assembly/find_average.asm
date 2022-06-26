@@ -6,7 +6,7 @@ DTSEG SEGMENT
     DTSEG ENDS
 SUM1 DB ?
 AVG DB ?
- REMAINDER DB ?
+REMAINDER DB ?
  
  CDSEG SEGMENT 
     MAIN PROC FAR
@@ -23,11 +23,12 @@ AVG DB ?
         MOV DL, AL
         MOV SUM1, AL
         MOV AH, 00H
-        MOV BL, 5H
+        MOV BL, 05H
         DIV BL
         MOV AVG,AL
         MOV REMAINDER, AH
         MAIN ENDP
     CDSEG ENDS
  END MAIN
+        
         
