@@ -19,7 +19,7 @@
 # 97 98 99
 
 
-
+#solution:
 x, y = map(int, input().split())
 count = 0
 
